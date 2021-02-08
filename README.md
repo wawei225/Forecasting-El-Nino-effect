@@ -6,15 +6,18 @@ The projects aims at forecasting time series data through ARIMA model.
 
 ## Key procedures
 
-- Exploratory Data Analysis 
+- Exploratory Data Analysis (to understand the shape of raw time series)
   - Histogram 
   - Boxplot
   - Basic statistics 
-- Stationarity report
+  
+- Stationarity report (evaluating stationarity of time series)
   - ACF, PACF
+  ![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/ACF_PACF.PNG?raw=true)
   - ADF test, KPSS test
-- Model identification
+- Model identification (identifying order of ARIMA)
   - EACF
+  ![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/EACF.PNG?raw=true)
 - Parameter estimations
   - Maximum likelihood
 - Diagnostic testing
@@ -22,5 +25,7 @@ The projects aims at forecasting time series data through ARIMA model.
   - QQ-plot
   - ACF
   - Normality test (Shapiro-wilk, Run test)
+  ![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/diagnostic.PNG?raw=true)
 - Forecasting
 - Model selection
+![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/forecasting_selection.PNG?raw=true)
