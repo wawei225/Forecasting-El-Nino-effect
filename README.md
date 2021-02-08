@@ -11,12 +11,12 @@ The projects aims at forecasting time series data through ARIMA model.
   - Boxplot
   - Basic statistics 
   
-- Stationarity report (evaluating stationarity of time series)
+- Stationarity report (to evaluate stationarity of time series)
   - ACF, PACF
   - ADF test, KPSS test
   ![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/ACF_PACF.PNG?raw=true)
   
-- Model identification (identifying order of ARIMA)
+- Model identification (to identify the order of ARIMA)
   - EACF
   ![alt text](https://github.com/wawei225/Forecasting-El-Nino-effect/blob/main/EACF.PNG?raw=true)
 - Parameter estimations
